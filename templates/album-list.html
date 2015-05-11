@@ -1,0 +1,20 @@
+<ul class="list-group">
+			{{#album}}
+			<li class="list-item list-group-item album" data-json="{{json}}">
+				<div class="row">
+					<div class="col-left col-xs-3">
+						<div class="img-content">
+							<img class="img-responsive" src="{{image1}}" width="48" height="48"/>
+						</div>
+					</div>
+					<div class="col-right col-xs-9">
+						<h2>{{name}}</h2>
+						<h3>{{artist}}</h3>
+					</div>
+					<div class="col-right-fixed col-xs-6 on-hover">
+						<span class="col-xs-offset-4 col-xs-4 play glyphicon glyphicon-chevron-right"></span>
+					</div>
+				</div>
+			</li>
+			{{/album}}
+		</ul>

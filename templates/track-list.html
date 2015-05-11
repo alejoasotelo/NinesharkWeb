@@ -1,0 +1,26 @@
+<ul class="list-group">
+			{{#track}}
+			<li class="list-item list-group-item track" data-json="{{json}}">
+				<div class="row">
+					<div class="col-left col-xs-3">
+						<div class="img-content">
+							<img class="img-responsive" src="{{image1}}" width="48" height="48"/>
+						</div>
+					</div>
+					<div class="col-right col-xs-9">
+						<h2>{{name}}</h2>
+						<span class="glyphicon glyphicon-headphones"></span>
+						<span class="listeners">{{listeners}}</span> -
+						<h3>
+							{{#artistIsObject}}
+							{{artist.name}}
+							{{/artistIsObject}}
+							{{^artistIsObject}}
+							{{artist}}
+							{{/artistIsObject}}
+						</h3>
+					</div>
+				</div>
+			</li>
+			{{/track}}
+		</ul>

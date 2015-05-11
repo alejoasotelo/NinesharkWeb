@@ -1,0 +1,133 @@
+#header {
+    margin-top: 10px;
+}
+h3, h2 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.list-item{
+    cursor: pointer;
+}
+
+.list-item:last-child{margin-bottom: 0px;}
+
+.list-item:hover, .list-item:hover{
+}
+
+.list-item .col-left{
+    padding-right: 0px;
+}
+
+.list-item .col-left .img-content{
+    position: relative;
+    margin: 0 auto;
+}
+
+.album, .track{}
+
+.col-right{
+    font-size: 12px;
+    line-height: 1em;
+    padding-right: 0px;
+}
+
+.col-right h3{display: inline-block;}
+
+.col-right .glyphicon{color: #D45151;}
+
+.col-right-fixed{background: white;}
+
+.list-item .col-right-fixed span.glyphicon{
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    z-index: 4;
+}
+
+span.glyphicon:hover{color: black;}
+
+span.glyphicon:active, span.glyphicon:focus{
+    color: grey;
+}
+
+.list-item h2{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.on-hover{
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.list-item:hover .on-hover{visibility: visible;}
+
+.active{color: #FF3131;}
+
+#playQueue{padding: 0px;}
+
+#controls span.glyphicon{cursor: pointer; margin-bottom: 10px; height: 40px;}
+
+#mainbody{
+    padding:64px 0px;
+}
+
+/* http://tobiasahlin.com/spinkit/ */
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
