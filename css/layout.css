@@ -1,0 +1,44 @@
+html, body{height: 100%;}
+
+body > .container-fluid{
+	padding-top: 34px;
+}
+
+#header{
+	height: 34px;
+	margin: 0px;
+}
+
+#header .navbar-form.navbar-right{margin: 0px;}
+
+#mainbody{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 100%;
+}
+
+#mainbody .right{
+	padding: 0px;
+}
+
+#mainbody .content, #mainbody .right, #mainbody .right > div{
+	height: 100%;
+}
+
+#mainbody .content, #mainbody .right{overflow: auto;}
+
+#player .title, #player #playQueue, #player #controls{margin: 0px;}
+
+#player .title{
+	height: 10%;
+	overflow: hidden;
+}
+#player #playQueue{
+	height: 80%;
+	margin: 0px;
+	overflow: auto;
+}
+#player #controls{
+	height: 10%;
+	overflow: hidden;
+}

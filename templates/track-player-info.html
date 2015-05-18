@@ -1,0 +1,18 @@
+<div class="col-md-8">
+<div class="col-left col-xs-1">
+		<div class="img-content">
+			<img class="img-responsive" src="{{image}}" width="48" height="48"/>
+		</div>
+	</div>
+	<div class="col-right col-xs-11">
+		<h2 class="text-bold">{{name}}</h2>
+		<h3>
+			{{#artistIsObject}}
+			{{artist.name}}
+			{{/artistIsObject}}
+			{{^artistIsObject}}
+			{{artist}}
+			{{/artistIsObject}}
+		</h3>
+	</div>
+</div>

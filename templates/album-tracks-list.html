@@ -1,19 +1,19 @@
-<div class="row">
-			<img src="{{image2}}" class="img-responsive"/>
-			<div class="row">
-				<h1>{{name}}</h1>
-				<h2>{{artist}}</h2>
+<div>
+	<img src="{{image2}}" class="img-responsive"/>
+	<div>
+		<h1>{{name}}</h1>
+		<h2>{{artist}}</h2>
+	</div>
+</div>
+<ul class="list-group">
+	{{#tracks.track}}
+	<li class="list-item track list-group-item" data-json="{{json}}">
+		<div class="row">
+			<div class="col-right col-xs-12">
+				<h2>{{name}}</h2>
+				<h3>{{artist.name}}</h3>
 			</div>
 		</div>
-		<ul class="list-group">
-			{{#tracks.track}}
-			<li class="list-item track list-group-item" data-json="{{json}}">
-				<div class="row">
-					<div class="col-right col-xs-12">
-						<h2>{{name}}</h2>
-						<h3>{{artist.name}}</h3>
-					</div>
-				</div>
-			</li>
-			{{/tracks.track}}
-		</ul>
+	</li>
+	{{/tracks.track}}
+</ul>

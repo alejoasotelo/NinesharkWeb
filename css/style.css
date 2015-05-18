@@ -1,6 +1,7 @@
-#header {
-    margin-top: 10px;
-}
+body, html{height: 100%;}
+
+body{overflow: hidden;}
+
 h3, h2 {
     margin: 0px;
     font-size: 12px;
@@ -45,6 +46,13 @@ h3, h2 {
     z-index: 4;
 }
 
+.list-group-item{
+  border: 0px;
+  background: transparent;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
 span.glyphicon:hover{color: black;}
 
 span.glyphicon:active, span.glyphicon:focus{
@@ -72,10 +80,15 @@ span.glyphicon:active, span.glyphicon:focus{
 
 #playQueue{padding: 0px;}
 
-#controls span.glyphicon{cursor: pointer; margin-bottom: 10px; height: 40px;}
+#controls span.glyphicon{
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
 
 #mainbody{
-    padding:64px 0px;
+    padding-top: 70px;
 }
 
 /* http://tobiasahlin.com/spinkit/ */
@@ -131,3 +144,51 @@ span.glyphicon:active, span.glyphicon:focus{
     -webkit-transform: scaleY(1.0);
   }
 }
+
+#footer nav{padding: 10px 0px;}
+
+#redesSociales, #wikipedia{
+  color: #3E3E3E;
+  font-size: 0.9em;
+}
+
+#progressBar{
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 4px;
+  border-radius: 0px;
+}
+
+#progressTrack, #durationTrack{font-size: 0.8em;}
+
+#progressTrack{text-align: right;}
+#durationTrack{text-align: left;}
+
+.text-bold{font-weight: bold;}
+
+#mainbody, #sidebarLeft{height: 100%;}
+#mainbody{overflow: auto;}
+
+#sidebarLeft{padding-top: 70px;padding-right: 0px;}
+
+#sidebarLeft #playQueue{overflow: auto;}
+
+#player{
+  height: 100%;
+  position: relative;
+}
+
+#player .title{height: 5%;}
+
+#player #playQueue{height: 75%;}
+
+#control{
+  height: 20%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.metadata{margin-bottom: 30px;}

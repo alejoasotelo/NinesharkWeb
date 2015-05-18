@@ -1,0 +1,86 @@
+body{
+	background-color: #1C1C1C;
+	color: white;
+	font-family:  "Segoe UI", Helvetica, sans-serif;
+}
+
+.form-control{
+	border-radius: 0px;
+	border: 0px;
+	background: #141414;
+	color: white;
+}
+
+.input-group-addon{
+	border-radius: 0px;
+	background: #141414;
+	border: none;
+}
+
+/** HEADER **/
+
+#header.navbar{
+	min-height: auto;
+	background: #141414;
+	border: 0px;
+}
+
+#header.navbar form{margin: 0px;}
+#header.navbar .input-group-addon{color: #9A9A9A;}
+
+#header.navbar .form-control:hover, #header.navbar .form-control:hover + span{background: #3D3D3D;}
+#header.navbar .form-control:focus,
+#header.navbar .form-control:focus + span {
+	box-shadow: none;
+	background: #3D3D3D;
+	color: #9A9A9A;
+}
+
+#mainbody .right{
+	background: #2B2B2B;
+}
+
+/** SEARCH */
+
+#txtQuery{
+}
+
+#btnQuery{
+	cursor: pointer;
+}
+
+#btnQuery:hover{
+	color: white !important;
+}
+
+/** END SEARCH */
+
+/** END HEADER **/
+
+
+/** PLAYER **/
+
+#controls{
+	font-size: 0.8em;
+}
+
+.progress{
+	height: 4px;
+	border-radius: 0px;
+}
+
+#progressBar{margin: 0.4em 0px 0px 0px;}
+
+#controls .buttons span{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+#player .title h2{
+	font-size: 25px;
+	margin-top: 8px;
+}
+
+/** END PLAYER **/

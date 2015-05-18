@@ -1,0 +1,954 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ce",
+				"table-cell"
+			],
+			[
+				"Osme",
+				"OsmeconViewCuotas"
+			],
+			[
+				"e",
+				"end	.end()"
+			],
+			[
+				"nro_afil",
+				"nro_afil_ant"
+			],
+			[
+				"ra",
+				"raiseError  (function)"
+			],
+			[
+				"JModel",
+				"JModuleHelper  (class)"
+			],
+			[
+				"get",
+				"getModel  (function)"
+			],
+			[
+				"load",
+				"loadResult  (function)"
+			],
+			[
+				"getI",
+				"getUsersByGroup  (function)"
+			],
+			[
+				"try",
+				"try catch"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/album-list.html",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 17543,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2670,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"brows",
+				"Browser Integration: Settings (Default)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package con",
+				"Package Control: Remove Package"
+			],
+			[
+				"package controll",
+				"Package Control: Disable Package"
+			],
+			[
+				"nstall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 522.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/xampp/htdocs/nineshark_desktop",
+		"/E/xampp/htdocs/nineshark_desktop/css",
+		"/E/xampp/htdocs/nineshark_desktop/js",
+		"/E/xampp/htdocs/nineshark_desktop/templates"
+	],
+	"file_history":
+	[
+		"/E/xampp/htdocs/nineshark_desktop/templates/album-tracks-list.html",
+		"/E/xampp/htdocs/nineshark_desktop/js/app.js",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/cuotas/tmpl/default.css",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/cuotas/tmpl/template.css",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/cuotas/view.html.php",
+		"/E/xampp/htdocs/j3/libraries/dompdf/dompdf_config.inc.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/cuotas/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/cuotas.php",
+		"/E/xampp/htdocs/j3/libraries/joomla/document/pdf/pdf.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/cuotas/view.pdf.php",
+		"/E/xampp/htdocs/j3/language/en-GB/en-GB.com_osmecon.ini",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controller.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/profile/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/profile/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/profile.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/user.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/helpers/route.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/router.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/osmecon.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/registration.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/registration.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/login/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/profile/tmpl/default_core.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/login/tmpl/default_logout.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/profile/tmpl/default_custom.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/osmeon/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/osmeon/tmpl/default_form.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/views/importarCuotas/tmpl/default.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/controller.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/controllers/osmecon.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/osmecon.xml",
+		"/E/xampp/htdocs/j3/plugins/user/osmeconafiliados/osmeconafiliados.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_users/controllers/users.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_users/models/user.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_users/models/users.php",
+		"/E/xampp/htdocs/j3/plugins/user/joomla/joomla.php",
+		"/E/xampp/htdocs/j3/plugins/user/osmeconafiliados/osmeconafiliados.xml",
+		"/E/xampp/htdocs/j3/administrator/components/com_users/controllers/user.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_users/controller.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_users/users.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/views/importarafiliadoshabilitados/view.html.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/views/importarafiliadohabilitado/view.html.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/views/importarafiliadoshabilitados/tmpl/default.php",
+		"/E/xampp/htdocs/j3/language/es-ES/es-ES.com_osmecon.ini",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/controllers/afiliadosHabilitados.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_osmecon/controllers/afiliadoHabilitado.php",
+		"/e/Desktop/Sitios/Osmecon/2015/com_osmecon/osmecon.xml",
+		"/E/xampp/htdocs/j3/components/com_content/views/article/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/osmecon.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/reset.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/login/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/login/tmpl/default_login.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/forms/profile.xml",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/profile.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/registration/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/registration/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/remind/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/reset/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/reset.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/remind.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/remind.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/registration/metadata.xml",
+		"/E/xampp/htdocs/j3/components/com_users/router.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/remind/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_users/controller.php",
+		"/E/xampp/htdocs/j3/components/com_osmecon/controllers/afiliado.php",
+		"/E/xampp/htdocs/j3/language/en-GB/en-GB.com_users.ini",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/forms/login.xml",
+		"/E/xampp/htdocs/j3/components/com_osmecon/models/forms/registration.xml",
+		"/E/xampp/htdocs/j3/components/com_osmecon/views/osmeon/tmpl/default_error.php",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/default.js",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/mod_ligaliberofutbol_menu.php",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/tpl_goleadores.mst",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/default.php",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/tpl_fixture.mst",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/tpl_posiciones.mst",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonato/tmpl/default.php",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/tpl_utils.mst",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/models/campeonato.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/controllers/campeonatos.php",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/default.css",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/campeonato.php",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/mustache.js",
+		"/E/xampp/htdocs/LigaLiberoFutbol/api/www/assets/js/mustache.js",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/tmpl/ligaliberofutbol_menu.js",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/en-GB/en-GB.mod_ligaliberofutbol_menu.sys.ini",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/en-GB/en-GB.mod_ligaliberofutbol_menu.ini",
+		"/E/xampp/htdocs/j3/modules/mod_ligaliberofutbol_menu/mod_ligaliberofutbol_menu.xml",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/equipo.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonato/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/helpers/database.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/models/equipo.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/helpers/tools.php",
+		"/E/xampp/htdocs/j3/libraries/legacy/controller/legacy.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/jugador/view.html.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/jugador/tmpl/default.xml",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/models/fields/jugadores.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/jugador.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/models/jugador.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/equipo/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/jugador/tmpl/default.php",
+		"/E/xampp/htdocs/LigaLiberoFutbol/api/App/Table/EquiposTable.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/equipo/view.html.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/models/fields/equipos.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/models/fields/campeonatos.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/ligaliberofutbol.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/equipo/tmpl/default.xml",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonato/tmpl/default.xml",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonatos/tmpl/default.xml",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/equipo/metadata.xml",
+		"/E/xampp/htdocs/j3/language/en-GB/en-GB.com_tags.ini",
+		"/E/xampp/htdocs/j3/libraries/joomla/database/driver/mysqli.php",
+		"/E/xampp/htdocs/j3/libraries/joomla/table/table.php",
+		"/E/xampp/htdocs/j3/libraries/joomla/database/driver.php",
+		"/E/xampp/htdocs/j3/libraries/joomla/table/nested.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonatos/view.html.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/Campeonato.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/ligaliberofutbol.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/Jugador.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/Equipo.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/models/campeonatos.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/helpers/DatabaseHelper",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/controllers/equipos.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_newsfeeds/views/newsfeeds/tmpl/default.php",
+		"/E/xampp/htdocs/LigaLiberoFutbol/api/App/Table/CampeonatosTable.php",
+		"/E/xampp/htdocs/j3/administrator/components/com_ligaliberofutbol/tables/Equipos.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonatos/tmpl/default.php",
+		"/E/xampp/htdocs/j3/components/com_ligaliberofutbol/views/campeonato/tmpl/list.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon\\views\\profile\\tmpl",
+			"E:\\xampp\\htdocs\\j3\\components\\com_users",
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon\\views",
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon",
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon\\controllers",
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon",
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon\\views",
+			"E:\\xampp\\htdocs\\j3\\components\\com_ligaliberofutbol",
+			"E:\\xampp\\htdocs\\j3\\plugins",
+			"E:\\xampp\\htdocs\\j3\\administrator\\components\\com_osmecon",
+			"E:\\xampp\\htdocs\\j3\\components\\com_osmecon",
+			"E:\\xampp\\htdocs\\j3\\components",
+			"E:\\xampp\\htdocs\\j3\\components\\com_contact",
+			"E:\\xampp\\htdocs\\j3\\language",
+			"E:\\xampp\\htdocs\\j3",
+			"E:\\xampp\\htdocs\\j3\\administrator\\components\\com_osmecon",
+			"E:\\xampp\\htdocs\\j3\\administrator\\components\\com_osmecon\\views",
+			"E:\\xampp\\htdocs\\j3",
+			"E:\\xampp\\htdocs\\j3\\libraries\\joomla",
+			"E:\\xampp\\htdocs\\j3\\administrator",
+			"E:\\xampp\\htdocs\\j3\\administrator\\components",
+			"E:\\wamp\\www\\kuepaV2\\web\\js",
+			"E:\\wamp\\www\\kuepaV2\\apps\\frontend\\modules\\video_session",
+			"E:\\wamp\\www\\kuepaV2\\lib\\service",
+			"E:\\wamp\\www\\kuepaV2\\apps\\frontend\\modules\\video_session\\templates",
+			"E:\\wamp\\www\\kuepaV2\\apps\\frontend\\modules\\video_session",
+			"E:\\wamp\\www\\c1rca\\dev\\modules\\paypalusa",
+			"E:\\wamp\\www\\c1rca\\dev\\modules\\paypal",
+			"E:\\xampp\\htdocs\\joomla3\\crateconnect3\\administrator\\components\\com_crateconnect",
+			"E:\\xampp\\htdocs\\joomla3\\components\\com_crateconnect",
+			"E:\\xampp\\htdocs\\joomla3\\administrator\\components\\com_crateconnect"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#text",
+			"getArtistInfoByName",
+			"getArtistSocialInfoByName",
+			"getArtistInfoByName",
+			"label",
+			"display",
+			"Login",
+			"getGroupIdByName",
+			"afiliado",
+			"icon-user",
+			"print",
+			"UsersHelperRoute",
+			"'\n			'",
+			"\n    ",
+			": ",
+			"icon-arrow-left icon-white",
+			"descripcion 2",
+			"Edit Profile",
+			"Perfíl",
+			"Profile",
+			"COM_USERS_PROFILE_NAME_LABEL",
+			"form",
+			"Email",
+			"Email Address",
+			"Email",
+			"usersBuildRoute",
+			"COM_USER_REMIND_VIEW_DEFAULT_TITLE",
+			"COM_USERS_REMIND_VIEW_DEFAULT_TITLE",
+			"COM_USER_REMIND_VIEW_DEFAULT_TITLE",
+			"reset",
+			"remind",
+			"No tienes una cuenta?",
+			"COM_USERS_REMIND_REQUEST_ERROR",
+			"index.php?option=com_osmecon&task=registration.register",
+			"index.php/?option=com_osmecon&task=registration.register",
+			"index.php/osmecon?task=registration.register",
+			"COM_USERS_REGISTRATION_DEFAULT_LABEL",
+			"LOGIN",
+			"descripcion",
+			"COM_USERS_LOGIN_REMEMBER_ME",
+			"\nCOM_USERS_LOGIN_REMEMBER_ME",
+			"OSMECON_NUMERO_AFILIADO",
+			"input",
+			"tail",
+			"tail.search",
+			"; ?>",
+			"<?php echo $equipo->",
+			"'); ?>",
+			"<?php echo JText::_('",
+			"db",
+			"class",
+			"load",
+			"Equipo",
+			"campeonato.id",
+			"LigaLiberoFutbolTableEquipo",
+			"getTableColumns",
+			"hit",
+			"ligaliberofutbol_api",
+			"::createDbo();",
+			"bind",
+			"load",
+			"Equipos",
+			"Campeonato",
+			"print_r",
+			"var_dump",
+			"bind(",
+			"load(",
+			"load",
+			"getProperties",
+			"JPATH",
+			"getConfig",
+			"_db",
+			"getConfig",
+			"require",
+			"Tag",
+			"getListQuery",
+			"Tags",
+			"tag",
+			"tags",
+			"com_tags",
+			"state",
+			"tags_tag",
+			"tag",
+			"tags",
+			"Tag",
+			"Tags",
+			"tag",
+			"campeoantos",
+			"tags",
+			"Tags",
+			"com_tags",
+			"$query",
+			"_load",
+			"addJoomlaUser",
+			"$groupID",
+			"getGroupIdByName",
+			"addJoomlaUser",
+			"groups",
+			"JGroup",
+			"die",
+			"com_users",
+			"Users",
+			"com_users",
+			"Users",
+			"com_users",
+			"Users",
+			"com_users",
+			"Users",
+			"getAfiliadoState",
+			"setAfiliadoState",
+			"User",
+			"Users",
+			"secretkey",
+			"Users",
+			"State",
+			"$this->state	= $this->get('State');",
+			"State",
+			"users",
+			"state",
+			"Users",
+			"SEARCH",
+			"search",
+			"Search",
+			"search",
+			"Search",
+			"search",
+			"Search",
+			"search"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Cuotas",
+			"',\n			'",
+			"'\n        '",
+			"' => '",
+			"Editar perfil",
+			"Perfil",
+			"Correo electrónico",
+			"}}",
+			"{{",
+			"",
+			"Jugador",
+			"jugador.id",
+			"equipo.id",
+			"Jugador",
+			"Equipo",
+			"Campeonato",
+			"Campeonatos",
+			"campeonato",
+			"campeonatos",
+			"com_ligaliberofutbol",
+			"ligaliberofutbol_campeonato",
+			"campeonato",
+			"campeonatos",
+			"Campeonato",
+			"Campeonatos",
+			"campeonato",
+			"campeonatos",
+			"campeoantos",
+			"LigaLiberoFutbol",
+			"Campeonatos",
+			"LigaLiberoFutbol",
+			"com_ligaliberofutbol",
+			"com_osmecon",
+			"Osmecon",
+			"com_osmecon",
+			"Osmecon",
+			"com_osmecon",
+			"Osmecon",
+			"com_osmecon",
+			"Osmecon",
+			"getUserState",
+			"setUserState",
+			"Afiliado",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"OSMECON",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"afiliadoHabilitado",
+			"AfiliadoHabilitado",
+			"afiliadosHabilitados",
+			"AfiliadosHabilitados",
+			"UsuariosHabilitados",
+			"precios",
+			"Precios",
+			"precio",
+			"Precio",
+			"plan",
+			"Planes",
+			"planes",
+			"Planes",
+			"Afiliado",
+			"Osmecon",
+			"import",
+			"Import",
+			"OSMECON",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"Osmecon",
+			"osmecon",
+			"console.error",
+			"$",
+			"onSuccess",
+			"#__mp3",
+			"y9gm8_mp3",
+			"",
+			"#__mp3",
+			"jQuery.ajax",
+			"jQuery(",
+			"jQuery",
+			"",
+			"$mainframe = JFactory::getApplication();",
+			"$option = JRequest::getCmd('option')",
+			"$mainframe = JFactory::getApplication()",
+			" $option = JRequest::getCmd('option')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/album-list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9415,
+								9415
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2308,
+								2308
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1855.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 96.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "etnies",
+		"selected_items":
+		[
+			[
+				"etnies",
+				"E:\\xampp\\htdocs\\etnies\\etnies.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
